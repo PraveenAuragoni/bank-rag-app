@@ -1,0 +1,32 @@
+# Bank Policy RAG API
+# LangChain 1.3.2 stack
+
+# Core LangChain
+langchain==1.3.2
+langchain-core
+langchain-text-splitters==1.1.2
+
+# AI Provider
+langchain-anthropic==1.4.4
+anthropic
+
+# Vector Store
+langchain-chroma==1.1.0
+chromadb
+
+# Embeddings (free, runs locally)
+langchain-huggingface==1.2.0
+sentence-transformers
+
+# Document Loading
+langchain-community
+pypdf
+
+# API
+fastapi
+uvicorn
+python-multipart
+
+# Utilities
+python-dotenv
+reportlab

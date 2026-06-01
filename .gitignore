@@ -1,0 +1,33 @@
+# Environment
+.env
+
+# Vector DB (large binary files — regenerate locally)
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (optional — remove if you want to track sample PDFs)
+#bank_docs/*.pdf
