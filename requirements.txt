@@ -30,3 +30,7 @@ python-multipart
 # Utilities
 python-dotenv
 reportlab
+
+#bedrock
+boto3
+langchain-aws

@@ -1,0 +1,15 @@
+# .dockerignore
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git/
+.gitignore
+chroma_db/
+chroma_db_bedrock/
+logs/
+*.log
+venv/
+env/
+.venv/
+bank_docs/*.pdf

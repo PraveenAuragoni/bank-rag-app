@@ -18,7 +18,8 @@ from models import (
     UploadResponse, DocumentListResponse,
     HealthResponse, ChatRequest, ChatResponse
 )
-from rag_engine import RAGEngine
+#from rag_engine import RAGEngine
+from rag_engine_bedrock import RAGEngineBedrock
 
 # ── Setup logging FIRST before anything else ─────────────
 setup_logging(level="INFO")
@@ -34,7 +35,7 @@ async def lifespan(app: FastAPI):
     logger.info("=" * 60)
     logger.info("Bank Policy RAG API — Starting up")
     logger.info("=" * 60)
-    engine = RAGEngine()
+    engine = RAGEngineBedrock()
     logger.info("Application startup complete")
     yield
     logger.info("Application shutting down")
